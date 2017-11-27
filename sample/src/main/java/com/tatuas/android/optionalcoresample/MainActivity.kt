@@ -15,9 +15,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val txt1 = Optional.ofNullable(null)
-        val txt2 = Optional.of("hello")
-        val txt3 = Optional.empty()
+        val txt1: Optional<String> = Optional.ofNullable(null)
+        val txt2: Optional<String> = Optional.of("hello")
+        val txt3: Optional<String> = Optional.empty()
 
         Log.d(TAG, "txt1: " + txt1.orElse("").toString())
         Log.d(TAG, "txt2: " + if (txt2.isPresent()) txt2.value else "empty")

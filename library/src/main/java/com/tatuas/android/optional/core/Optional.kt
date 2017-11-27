@@ -10,7 +10,8 @@ class Optional<out T> {
 
         fun <T> of(value: T) = Optional(value)
 
-        fun empty() = EMPTY
+        @Suppress("UNCHECKED_CAST")
+        fun <T> empty() = EMPTY as Optional<T>
     }
 
     val value: T?
