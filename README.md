@@ -1,7 +1,6 @@
 # optional-core
 
-[![Release](https://jitpack.io/v/tatuas/optional-core.svg)]
-(https://jitpack.io/#tatuas/optional-core)
+![Release](https://jitpack.io/v/tatuas/optional-core.svg)
 
 # Installation
 
